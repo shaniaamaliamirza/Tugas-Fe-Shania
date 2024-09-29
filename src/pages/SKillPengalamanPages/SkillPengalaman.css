@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.overview-background {
+    background-color: pink;
+  }
+  
+  /* Mengatur warna hitam untuk progress yang panjangnya lebih dari 50% */
+progress[value]::-webkit-progress-value {
+    background-color: black;
+  }
+  
+  progress[value]::-moz-progress-bar {
+    background-color: black;
+  }
+  
+  /* Warna hitam jika progress lebih dari 50% */
+  progress[value] {
+    color: black;
+  }
+  
+  /* Gaya untuk mengganti warna progress bar yang sudah mencapai nilai tinggi */
+  .custom-progress-html::-webkit-progress-value {
+    background-color: black; /* Warna untuk HTML */
+  }
+  
+  .custom-progress-css::-webkit-progress-value {
+    background-color: black; /* Warna untuk CSS */
+  }
+  
+  .custom-progress-js::-webkit-progress-value {
+    background-color: black; /* Warna untuk JavaScript */
+  }
+
+  .custom-progress-react::-webkit-progress-value {
+    background-color: black; /* Warna untuk React */
+  }
+  
